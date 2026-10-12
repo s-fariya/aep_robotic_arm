@@ -54,6 +54,7 @@ Screenshot of the circuit
 
 (6-DOF-Robot-Arm-circuit-diagram.png)
 
+
 4. How It Works
 
 The Arduino repeats three steps for every joint, over and over:
