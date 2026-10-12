@@ -52,7 +52,7 @@ Wrist roll	A4	D10
 Gripper	A5	D11
 Screenshot of the circuit
 
-(6-DOF-Robot-Arm.png.)
+(6-DOF-Robot-Arm-circuit-diagram.png)
 
 4. How It Works
 
