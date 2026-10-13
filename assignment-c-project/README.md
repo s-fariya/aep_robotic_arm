@@ -4,7 +4,7 @@
 **Sensor:** HC-SR04 ultrasonic distance sensor
 **Actuator:** Micro servo (acts as the lid)
 **Platform:** Tinkercad Circuits
-**Simulation link:** (https://www.tinkercad.com/things/cJZKiNB0QG3-smart-dustbin)
+**Simulation link:** https://www.tinkercad.com/things/cJZKiNB0QG3-smart-dustbin
 
 ---
 
