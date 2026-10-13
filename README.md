@@ -3,7 +3,7 @@
 **Course topic:** Class 3, Actuators & Servo Motion
 **Platform:** Tinkercad Circuits
 **Board:** Arduino Uno R3
-**Simulation link:** [paste your Tinkercad link here]
+**Simulation link:** https://www.tinkercad.com/things/b2jJtZiPReh-6-dof-robot-arm
 
 ---
 
