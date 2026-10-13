@@ -4,7 +4,7 @@
 **Sensor:** HC-SR04 ultrasonic distance sensor
 **Actuator:** Micro servo (acts as the lid)
 **Platform:** Tinkercad Circuits
-**Simulation link:** [paste your Tinkercad link here]
+**Simulation link:** (https://www.tinkercad.com/things/cJZKiNB0QG3-smart-dustbin)
 
 ---
 
@@ -96,9 +96,7 @@ The button uses `INPUT_PULLUP`, so the pin sits HIGH by itself and pressing the 
 
 ## 6. Code
 
-Two versions are included to show how the project grew:
-- [`dustbin_stage1.ino`](dustbin_stage1.ino): sensor and servo with smoothing, averaging and out-of-range handling
-- [`dustbin_stage2.ino`](dustbin_stage2.ino): everything above plus the LEDs and the hold-open button (final version)
+File: [`smart_dustbin.ino`](smart_dustbin.ino)
 
 ### Settings at the top of the code
 
