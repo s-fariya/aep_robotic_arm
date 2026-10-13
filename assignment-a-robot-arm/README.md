@@ -1,11 +1,8 @@
 # Assignment A: 6-DOF Robot Arm (6 Servos + 6 Potentiometers)
 
 **Course topic:** Class 3, Actuators & Servo Motion
-
 **Platform:** Tinkercad Circuits
-
 **Board:** Arduino Uno R3
-
 **Simulation link:** https://www.tinkercad.com/things/b2jJtZiPReh-6-dof-robot-arm
 
 ---
@@ -36,7 +33,8 @@ A "degree of freedom" is one independent way a part can move. Six servos means s
 | Arduino Uno R3 | 1 | Microcontroller (the brain) |
 | Micro Servo | 6 | Actuators (the joints) |
 | Potentiometer | 6 | Set to 10 kΩ, used as input knobs |
-| Breadboard | 1 | Shares 5V and GND between all parts |
+| Battery pack (4 × AA, 6V) | 1 | External power for the servos and the breadboard rails |
+| Breadboard | 1 | Shares power and GND between all parts |
 | Jumper wires | Many | Connections |
 
 ---
@@ -44,9 +42,12 @@ A "degree of freedom" is one independent way a part can move. Six servos means s
 ## 3. Circuit and Wiring
 
 ### Power
-- Arduino **5V** to the breadboard **red (+)** rail
-- Arduino **GND** to the breadboard **blue (−)** rail
+- Battery pack **+** to the breadboard **red (+)** rail
+- Battery pack **−** to the breadboard **blue (−)** rail
+- Arduino **GND** to the breadboard **blue (−)** rail, so the battery, Arduino, servos and pots all share the same ground (a common ground is required, otherwise the Arduino's signals mean nothing to the servos)
 - The top and bottom rails of the breadboard are linked with wires so every part gets power.
+
+**Why a battery?** Servos are motors, and six of them draw more current than the Arduino's 5V pin can safely supply. Powering them from a separate battery pack, like a real robot arm, keeps the Arduino stable. The Arduino itself is powered over USB and only sends the control signals.
 
 ### Potentiometers (inputs)
 Each potentiometer has three pins:
@@ -170,4 +171,4 @@ Because `servoPins[i]` and `potPins[i]` share the same index, pot 1 always contr
 
 - Smooth the movement by averaging several readings
 - Only update a servo when its angle changes by 2 or more degrees, to reduce jitter
-- On real hardware, power the servos from an external 5V supply (six servos draw more current than the Arduino's 5V pin can supply) and share GND with the Arduino
+- Give the potentiometers their own 5V from the Arduino and use the battery for the servos only. In this build the pots share the 6V battery rail. The Arduino's analog input measures up to 5V, so the last part of each knob's turn gives the same reading, and on real hardware 6V on an analog pin could damage the board. Separating the two power rails fixes both problems.
