@@ -7,7 +7,7 @@ An LED on pin 13 (through a resistor) turns on for 1 second, then off for 1 seco
 
 Code: [blink.ino](blink.ino)
 
-![Blink circuit](blink-circuit.png)
+![Blink circuit](led-blink.png)
 
 | Part | What it does |
 |---|---|
