@@ -2,6 +2,8 @@
 
 The class 4 code was written live and isn't available, so I rebuilt a system with the same purpose: an HC-SR04 ultrasonic sensor, a servo and a buzzer on an Arduino Uno, simulated in Tinkercad. When an object is closer than 20 cm, the servo turns to 90 degrees and the buzzer beeps. Otherwise the servo rests at 0 degrees and the buzzer is silent.
 
+Simulation link: https://www.tinkercad.com/things/64fKtKSo5vp-circuit-working
+
 Code file: [distance_alert.ino](distance_alert.ino)
 
 ## Wiring
