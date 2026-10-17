@@ -23,7 +23,7 @@ An LED on pin 13 turns on while a button on pin 2 is pressed, and off when it is
 
 Code: [button_led.ino](button_led.ino)
 
-![Button circuit](button-circuit.png)
+![Button circuit](Push-Button-Arduino-Led.png)
 
 | Part | What it does |
 |---|---|
