@@ -66,6 +66,6 @@ A second problem: `pulseIn` with no timeout can wait up to 1 second for an echo 
 | 49 | Ends `loop()`, which then starts again. |
 
 ## Result
-![Working circuit](Circuit-working.png)
+![Working circuit](circuit-working.png)
 
 Object at about 10 cm: the Serial Monitor prints the distance, the servo turns to 90 degrees and the buzzer sounds.
