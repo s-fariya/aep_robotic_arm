@@ -32,8 +32,6 @@ In the simulation there is no physical lid, so the **servo arm stands in for the
 
 ![Smart Dustbin circuit diagram](Smart-Dustbin.png)
 
-Video: [add a link or the video file name here]
-
 ---
 
 ## 3. Components
