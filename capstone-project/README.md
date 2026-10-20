@@ -63,7 +63,7 @@ Code file: `robotic_arm.ino`
 
 ## How to run
 1. Open the simulation link above, or recreate the circuit in Tinkercad using the wiring table.
-2. Paste `robotic_arm.ino` into the code editor (Text mode).
+2. Paste [robotic_arm.ino](robotic_arm.ino) into the code editor (Text mode).
 3. Click **Start Simulation** and open the Serial Monitor.
 4. Turn the pots to test manual mode.
 5. Press the button, then drag the ultrasonic object to about 15 cm to trigger pick-and-place.
