@@ -3,7 +3,7 @@
 A 4-servo robotic arm simulated on an Arduino Uno. It can be driven **manually** with potentiometers, or run **autonomously**, detecting, picking and placing objects using an ultrasonic sensor.
 
 ## Demo
-![Capstone simulation](Capstone-project.png)
+![Capstone simulation](capstone-project.png)
 
 Simulation link: https://www.tinkercad.com/things/9diCB8d5leN-capstone-project
 
